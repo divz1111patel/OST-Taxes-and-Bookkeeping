@@ -1,0 +1,25 @@
+@keyframes slide {
+    from{
+        transform: translateX(0)
+    }
+    to{
+        transform: translateX(-100%)
+    }
+}
+
+.logos {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.logos-slide{
+    display: inline-block;
+    /* justify-content: center; */
+    animation: 5s slide infinite linear;
+}
+
+.logos-slide img{
+    margin: 0 25px;
+}
+
+

@@ -1,0 +1,46 @@
+.how-it-work-parent {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
+
+.how-it-work-parent img {
+    width: max-content;
+    height: max-content;
+}
+
+.how-it-work-parent p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--color-text);
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 850px) {
+    .how-it-work-parent p {
+        justify-content: center;
+        align-items: center;
+        padding: 25px 0px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .how-it-work-parent p {
+        justify-content: center;
+        align-items: center;
+        padding: 25px 0px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .how-it-work-parent p {
+        justify-content: center;
+        align-items: center;
+        padding: 25px 0px;
+    }
+}

@@ -1,0 +1,51 @@
+.cta-full {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    height: 100px;
+    align-items: right;
+    justify-content: space-between;
+    z-index: 100;
+    /* border: solid 3px red; */
+}
+
+.cta-icons {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cta-icons p {
+    margin-right: 15px;
+    color: white;
+    font-weight: 300;
+    background-color: #45E15F;
+    max-width: 80%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 850px) {
+    .cta-full {
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .cta-full {
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cta-full {
+        bottom: 20px;
+        right: 20px;
+    }
+}

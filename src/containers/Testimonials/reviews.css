@@ -1,0 +1,103 @@
+@keyframes slide {
+    from{
+        transform: translateX(0)
+    }
+    to{
+        transform: translateX(-100%)
+    }
+}
+
+.reviews_container {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    align-items: center;
+    overflow: hidden;
+    background-color: #ffe4d5;
+    padding: 50px 15px;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+
+.arrows img {
+    height: 40px;
+    width: 40px;
+}
+
+.reviews_heading {
+    font-family: var(--font-family);
+    color: RGB(47, 46, 46);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    letter-spacing: -0.04rem;
+}
+
+.reviews-text {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.review_single_container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    animation: 50s slide infinite linear;
+}
+
+.review_single {
+    margin: 25px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 850px) {
+    .reviews_heading h1{
+        letter-spacing: -0.06rem;
+        text-align: center;
+        line-height: 35px;
+    }
+
+    .reviews_heading p{
+        letter-spacing: -0.02rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .reviews_heading h1{
+        letter-spacing: -0.06rem;
+        text-align: center;
+        line-height: 35px;
+    }
+
+    .reviews_heading p{
+        letter-spacing: -0.02rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .reviews_heading h1{
+        letter-spacing: -0.06rem;
+        text-align: center;
+        line-height: 35px;
+    }
+
+    .reviews_heading p{
+        letter-spacing: -0.02rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,82 @@
+.student-deductions-parent {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffe4d5;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 30px;
+}
+
+.student-deductions-heading {
+    text-align: center;
+}
+
+.student-deductions-heading h1{
+    font-family: var(--font-family);
+    color: RGB(47, 46, 46);
+    letter-spacing: -0.04rem;
+    font-size: 32px;
+}
+
+.student-deductions-heading p{
+    font-family: var(--font-family);
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+.deductions-all {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+.deductions-all-2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+.deductions-single {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 850px) {
+    .deductions-all {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .deductions-all-2 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .deductions-all {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .deductions-all-2 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .deductions-all {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .deductions-all-2 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+}

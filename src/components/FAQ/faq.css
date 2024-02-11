@@ -1,0 +1,54 @@
+.faq-component {
+    align-items: center;
+    overflow: hidden;
+    transition: height 0.5s ease;
+}
+
+.arrow-container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.question {
+    color: var(--color-text);
+    padding: 7.5px 25px;
+}
+
+.answer {
+    color: var(--color-text);
+    padding-left: 55px;
+    opacity: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    padding: 5px 10px 20px 55px;
+}
+
+.arrow-icon {
+    transition: transform .5s ease; /* Smooth transition on the transform property */
+}
+
+.rotate-up {
+    transform: rotate(-90deg); /* Rotate the arrow upwards */
+}
+
+.answer-container {
+    overflow: hidden;
+}
+
+.faq-component.expanded .answer {
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform .5s ease; /* Optional: Add a transition effect for content */
+}
+
+@media screen and (max-width: 850px) {
+
+}
+
+@media screen and (max-width: 650px) {
+
+}
+
+@media screen and (max-width: 425px) {
+
+}
