@@ -12,7 +12,7 @@ const Header = () => (
   <div className="header-mother">
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
-        <h1 className="gradient__text">File Your Taxes</h1>
+        <h1 className="gradient__text">Fle Your Taxes</h1>
         <h1 className="gradient__text">
           <Typical
             loop={Infinity}
