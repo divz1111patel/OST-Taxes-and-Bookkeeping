@@ -33,11 +33,11 @@ const Footer = () => (
         <h4>Get in touch</h4>
         <p>4342 Queen Street, Niagara Falls, ON, <br /> L2E7J7 </p>
         <a href="tel:+12892741110">289-274-1110</a>
-        <a href="mailto:support@ontariostudenttaxes.ca">support@ontariostudenttaxes.ca</a>
+        <a href="mailto:support@ontariostudenttaxes.ca">support<br />@ontariostudenttaxes.ca</a>
       </div>
     </div>
     <div className="footer-copyright">
-      <p>@2024 OTS. All rights reserved.</p>
+      <p>@2024 OST. All rights reserved.</p>
     </div>
   </div>
 );
