@@ -9,7 +9,7 @@ const Footer = () => (
     </div>
 
     <div className="footer-btn">
-      <a href="tel:+19053484808">Click here and text us!</a>
+      <a href="SMS:+12892741110">Click here and text us!</a>
     </div>
 
     <div className="footer-links">
@@ -32,7 +32,7 @@ const Footer = () => (
       <div className="footer-links-div" id="links-3">
         <h4>Get in touch</h4>
         <p>4342 Queen Street, Niagara Falls, ON, <br /> L2E7J7 </p>
-        <a href="tel:+19053484808">905-348-4808</a>
+        <a href="tel:+12892741110">289-274-1110</a>
         <a href="mailto:support@ontariostudenttaxes.ca">support@ontariostudenttaxes.ca</a>
       </div>
     </div>
