@@ -4,6 +4,7 @@ import CTAbutton from '../../components/CTAbutton/CTAbutton';
 import './CTA.css';
 import Phone from '../../assets/apple-phone.svg';
 import Text from '../../assets/imessage.svg';
+import Whatsapp from '../../assets/Whatsapp.svg';
 
 const CTA = () => (
   <div className="cta-full">
@@ -14,6 +15,10 @@ const CTA = () => (
     <div className="cta-icons" id="cta-2">
       {/* <p>Or let&apos;s just talk...</p> */}
       <CTAbutton svg={Phone} href="tel:+19052267054" />
+    </div>
+    <div className="cta-icons" id="cta-3">
+      {/* <p>Or let&apos;s just talk...</p> */}
+      <CTAbutton svg={Whatsapp} href="https://wa.me/+19052267054" />
     </div>
   </div>
 );
