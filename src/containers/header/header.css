@@ -31,7 +31,13 @@
 
 .header-text {
     display: flex;
+    align-items: center;
     margin-top: 10px;
+}
+
+.header-text img {
+    display: flex;
+    margin-top: -10px;
 }
 
 .header-text p {

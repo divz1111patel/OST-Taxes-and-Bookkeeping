@@ -37,13 +37,13 @@ const Header = () => (
           </div>
           <div className="header-text">
             <img src={checkmark} alt="arrow" />
-            <p>Average 2022 filing cost: $39!</p>
+            <p>Average 2022 filing cost: $49!</p>
           </div>
         </div>
         <div className="gpt3__header-content__input">
           {/* <input type="email" placeholder="Start texting with us" /> */}
-          <a href="tel:+12892741110"><button type="button"> Call Us</button></a>
-          <a id="button-2" href="SMS:+12892741110"><button type="button">Text Us</button></a>
+          <a href="tel:+19052267054"><button type="button"> Call Us</button></a>
+          <a id="button-2" href="SMS:+19052267054"><button type="button">Text Us</button></a>
         </div>
         <div className="gpt3-header-content-people">
           <img src={people} />

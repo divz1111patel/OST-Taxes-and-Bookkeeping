@@ -9,7 +9,7 @@ const Footer = () => (
     </div>
 
     <div className="footer-btn">
-      <a href="SMS:+12892741110">Click here and text us!</a>
+      <a href="SMS:+19052267054">Click here and text us!</a>
     </div>
 
     <div className="footer-links">
@@ -19,9 +19,9 @@ const Footer = () => (
       </div>
       <div className="footer-links-div" id="links-1">
         <h4>Links</h4>
-        <p>Instagram</p>
-        <p>Facebook</p>
-        <p>Tiktok</p>
+        <a href="https://www.instagram.com/ontariostudenttaxes/">Instagram</a>
+        <a href="https://www.facebook.com/ontario.student.taxes">Facebook</a>
+        <a href="https://www.tiktok.com/@ontariostudenttaxes">Tiktok</a>
       </div>
       <div className="footer-links-div" id="links-2">
         <h4>Company</h4>
@@ -32,7 +32,7 @@ const Footer = () => (
       <div className="footer-links-div" id="links-3">
         <h4>Get in touch</h4>
         <p>4342 Queen Street, Niagara Falls, ON, <br /> L2E7J7 </p>
-        <a href="tel:+12892741110">289-274-1110</a>
+        <a href="tel:+19052267054">905-226-7054</a>
         <a href="mailto:support@ontariostudenttaxes.ca">support<br />@ontariostudenttaxes.ca</a>
       </div>
     </div>

@@ -9,11 +9,11 @@ const CTA = () => (
   <div className="cta-full">
     <div className="cta-icons" id="cta-1">
       {/* <p>Let&apos;s iMessage</p> */}
-      <CTAbutton svg={Text} href="SMS:+19053484808" />
+      <CTAbutton svg={Text} href="SMS:+19052267054" />
     </div>
     <div className="cta-icons" id="cta-2">
       {/* <p>Or let&apos;s just talk...</p> */}
-      <CTAbutton svg={Phone} href="tel:+19053484808" />
+      <CTAbutton svg={Phone} href="tel:+19052267054" />
     </div>
   </div>
 );
