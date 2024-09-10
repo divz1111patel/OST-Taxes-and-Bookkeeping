@@ -1,23 +1,23 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { Footer, Studentdeductions, Header, Testimonials, HowItWorks, FAQs, CTA } from './containers';
-import { Navbar } from './components';
+import Home from './pages/home';
+import Studenthome from './pages/studenthome';
+import Personalhome from './pages/personalhome';
+import Coorporatehome from './pages/coorporatehome';
 
 import './App.css';
 
 const App = () => (
-  <div className="App">
-    <div className="gradient__bg">
-      <Navbar />
-      <Header />
-    </div>
-    <CTA />
-    <Studentdeductions />
-    <HowItWorks />
-    <Testimonials />
-    <FAQs />
-    <Footer />
-  </div>
+  <BrowserRouter>
+    <Routes>
+      <Route index element={<Home />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/student" element={<Studenthome />} />
+      <Route path="/personal" element={<Personalhome />} />
+      <Route path="/coorporate" element={<Coorporatehome />} />
+    </Routes>
+  </BrowserRouter>
 );
 
 export default App;

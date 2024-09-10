@@ -1,0 +1,39 @@
+.homestudent-mother {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffe4d5;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.homestudent-mother h1{
+    font-family: var(--font-family);
+    color: RGB(47, 46, 46);
+    letter-spacing: -0.04rem;
+    font-size: 46px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    /* border:solid 3px red; */
+    align-items: center;
+}
+
+.service-items-container {
+    display: flex;
+    width: 100%;
+    /* border:solid 3px green; */
+}
+
+@media screen and (max-width: 800px) {
+    .service-item {
+        padding: 40px 0;
+    }
+
+    .service-items-container {
+        flex-direction: column;
+    }
+}

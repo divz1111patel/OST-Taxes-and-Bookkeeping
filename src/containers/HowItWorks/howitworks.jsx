@@ -26,7 +26,7 @@ const numberData = [
 ];
 
 const howitworks = () => (
-  <div className="how-it-works-full" id="howitworks">
+  <div className="how-it-works-full" id="pricing">
     <h2 className="gradient__text">How We Work</h2>
     <div className="how-it-works-mother">
       { numberData.map((item, index) => (

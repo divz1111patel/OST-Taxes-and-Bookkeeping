@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/maple.png';
 import logofinal from '../../assets/logo-final-3.svg';
-import './navbar.css';
+import './navbar2.css';
 
-const Navbar = () => {
+const Navbar2 = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
@@ -27,7 +27,7 @@ const Navbar = () => {
               <p><Link to="/coorporate">Corporate Taxes</Link></p>
             </div>
           </div>
-          <p><a href="#pricing">Pricing</a></p>
+          <p><a href="#FAQ">FAQ</a></p>
           <p><a href="#testimonials">Testimonials</a></p>
           <p><a href="#contactus">Contact Us</a></p>
         </div>
@@ -48,7 +48,7 @@ const Navbar = () => {
                   <p><Link to="/coorporate">Corporate Taxes</Link></p>
                 </div>
               </div>
-              <p><a href="#pricing">Pricing</a></p>
+              <p><a href="#FAQ">FAQ</a></p>
               <p><a href="#testimonials">Testimonials</a></p>
               <p><a href="#contactus">Contact Us</a></p>
             </div>
@@ -59,4 +59,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar2;

@@ -2,29 +2,42 @@
     align-items: center;
     overflow: hidden;
     transition: height 0.5s ease;
+    /* border: solid green; */
+    width: 100%;
+    padding: 0 0 20px 0;
 }
 
 .arrow-container{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     cursor: pointer;
+    /* border: solid red; */
 }
 
 .question {
-    color: var(--color-text);
-    padding: 7.5px 25px;
+    color: #BD71DB;
+    padding: 0px 20px;
+    /* border: solid blue; */
+}
+
+.question p{
+    font-size: 20px;
 }
 
 .answer {
     color: var(--color-text);
-    padding-left: 55px;
     opacity: 1;
     transition: opacity 0.5s ease, transform 0.5s ease;
-    padding: 5px 10px 20px 55px;
+    padding: 20px 0 40px 42px;
+}
+
+.answer p{
+    font-size: 20px;
 }
 
 .arrow-icon {
-    transition: transform .5s ease; /* Smooth transition on the transform property */
+    transition: transform .5s ease;
+    /* border: solid aqua; Smooth transition on the transform property */
 }
 
 .rotate-up {
@@ -39,16 +52,4 @@
     opacity: 1;
     transform: translateY(0);
     transition: transform .5s ease; /* Optional: Add a transition effect for content */
-}
-
-@media screen and (max-width: 850px) {
-
-}
-
-@media screen and (max-width: 650px) {
-
-}
-
-@media screen and (max-width: 425px) {
-
 }

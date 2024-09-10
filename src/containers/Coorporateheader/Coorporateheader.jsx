@@ -8,44 +8,44 @@ import hero from '../../assets/hero1.webp';
 // import support from '../../assets/support.svg';
 // import callicon from '../../assets/phone-call-icon.svg';
 import checkmark from '../../assets/checkmark.svg';
-import './header.css';
+import './coorporateheader.css';
 
-const Header = () => (
+const Coorporateheader = () => (
   <div className="header-mother">
     <div className="header-top">
       <div className="header-top-content">
-        <h1 className="gradient__text">File Your Taxes</h1>
-        <h1 className="gradient__text">
+        <h1 className="gradient__text">Effortless Coorporate <br />Tax Filing</h1>
+        <h1 className="des gradient__text">
           <Typical
             loop={Infinity}
             wrapper="b"
             steps={[
-              'By Texting', 1500,
-              'With Experts', 1500,
-              'in 3 days', 1500,
+              'T2 returns', 1500,
+              'GST/HST returns', 1500,
+              'T3 Trust returns', 1500,
             ]}
           />
         </h1>
         <div className="header-text-parent">
           <div className="header-text">
             <img src={checkmark} alt="arrow" />
-            <p>Personal T1 returns</p>
+            <p>Income Statement, Balance Sheet and Cash Flow Statement</p>
           </div>
           <div className="header-text">
             <img src={checkmark} alt="arrow" />
-            <p>Coorporation T2 returns</p>
+            <p>Payroll activities</p>
           </div>
           <div className="header-text">
             <img src={checkmark} alt="arrow" />
-            <p>Trust T3 returns</p>
+            <p>Tax Deferral Techniques</p>
           </div>
           <div className="header-text">
             <img src={checkmark} alt="arrow" />
-            <p>Coorporate Bookkeeping</p>
+            <p>Tax Audit Assistance</p>
           </div>
           <div className="header-text">
             <img src={checkmark} alt="arrow" />
-            <p>AR/AP & Payroll Services</p>
+            <p>Compensation and Pay Structures</p>
           </div>
         </div>
         <div className="header-buttons">
@@ -65,4 +65,4 @@ const Header = () => (
   </div>
 );
 
-export default Header;
+export default Coorporateheader;

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './faq.css';
 import abc from '../../assets/abc.svg';
 
-const FaqComponent = ({ question, answer }) => {
+const faqComponent = ({ question, answer }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [textGenerated, setTextGenerated] = useState(false);
 
@@ -34,13 +34,13 @@ const FaqComponent = ({ question, answer }) => {
           className={`arrow-icon ${isExpanded ? 'rotate-up' : ''}`}
         />
         <div className="question" onClick={handleToggle}>
-          {question}
+          <p>{question}</p>
         </div>
       </div>
       <div className={`answer-container ${isExpanded ? 'expanded' : ''}`}>
         {isExpanded && textGenerated && (
           <div className="answer visible">
-            {answer}
+            <p>{answer}</p>
           </div>
         )}
       </div>
@@ -48,4 +48,4 @@ const FaqComponent = ({ question, answer }) => {
   );
 };
 
-export default FaqComponent;
+export default faqComponent;

@@ -8,9 +8,9 @@ import hero from '../../assets/hero1.webp';
 // import support from '../../assets/support.svg';
 // import callicon from '../../assets/phone-call-icon.svg';
 import checkmark from '../../assets/checkmark.svg';
-import './header.css';
+import './studentheader.css';
 
-const Header = () => (
+const Studentheader = () => (
   <div className="header-mother">
     <div className="header-top">
       <div className="header-top-content">
@@ -22,30 +22,22 @@ const Header = () => (
             steps={[
               'By Texting', 1500,
               'With Experts', 1500,
-              'in 3 days', 1500,
+              'For Free', 1500,
             ]}
           />
         </h1>
         <div className="header-text-parent">
           <div className="header-text">
             <img src={checkmark} alt="arrow" />
-            <p>Personal T1 returns</p>
+            <p>Students file for FREE if no refund.</p>
           </div>
           <div className="header-text">
             <img src={checkmark} alt="arrow" />
-            <p>Coorporation T2 returns</p>
+            <p>Average 2022 student refund: $1432!</p>
           </div>
           <div className="header-text">
             <img src={checkmark} alt="arrow" />
-            <p>Trust T3 returns</p>
-          </div>
-          <div className="header-text">
-            <img src={checkmark} alt="arrow" />
-            <p>Coorporate Bookkeeping</p>
-          </div>
-          <div className="header-text">
-            <img src={checkmark} alt="arrow" />
-            <p>AR/AP & Payroll Services</p>
+            <p>Average 2022 filing cost: $49!</p>
           </div>
         </div>
         <div className="header-buttons">
@@ -65,4 +57,4 @@ const Header = () => (
   </div>
 );
 
-export default Header;
+export default Studentheader;

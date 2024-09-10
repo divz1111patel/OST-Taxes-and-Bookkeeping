@@ -40,7 +40,7 @@ const reviewsData = [
 ];
 
 const Reviews = () => (
-  <div className="reviews_container" id="Testimonials">
+  <div className="reviews_container" id="testimonials">
     <div className="arrows">
       <img src={arrow} />
       <img src={arrow} />

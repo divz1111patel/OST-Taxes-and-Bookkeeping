@@ -3,7 +3,7 @@ import Logo from '../../assets/maple.png';
 import './footer.css';
 
 const Footer = () => (
-  <div className="footer-full" id="ContactUs">
+  <div className="footer-full" id="contactus">
     <div className="footer-heading">
       <h1 className="gradient__text">Want to learn more about taxes?</h1>
     </div>
@@ -31,9 +31,9 @@ const Footer = () => (
       </div>
       <div className="footer-links-div" id="links-3">
         <h4>Get in touch</h4>
-        <p>4342 Queen Street, Niagara Falls, ON, <br /> L2E7J7 </p>
+        <p>411 East Main Street, Welland, ON, <br /> L3B3X3 </p>
         <a href="tel:+19052267054">905-226-7054</a>
-        <a href="mailto:support@ontariostudenttaxes.ca">support<br />@ontariostudenttaxes.ca</a>
+        <a href="mailto:support@ontariostudenttaxes.ca">support@osttaxes.ca</a>
       </div>
     </div>
     <div className="footer-copyright">
