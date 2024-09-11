@@ -21,8 +21,8 @@ const Coorporateheader = () => (
             wrapper="b"
             steps={[
               'T2 returns', 1500,
-              'GST/HST returns', 1500,
-              'T3 Trust returns', 1500,
+              'GST returns', 1500,
+              'T3 returns', 1500,
             ]}
           />
         </h1>

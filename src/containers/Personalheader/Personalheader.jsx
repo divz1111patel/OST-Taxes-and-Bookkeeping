@@ -37,7 +37,7 @@ const Personalheader = () => (
           </div>
           <div className="header-text">
             <img src={checkmark} alt="arrow" />
-            <p>Expert advice on complex tax situations, including self-employment, investments, or significant life events (e.g., marriage, divorce, inheritance).</p>
+            <p>Expert advice on self-employment, investments, marriage, divorce, inheritance!</p>
           </div>
         </div>
         <div className="header-buttons">
