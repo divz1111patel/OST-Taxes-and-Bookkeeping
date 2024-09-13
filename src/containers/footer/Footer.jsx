@@ -19,9 +19,9 @@ const Footer = () => (
       </div>
       <div className="footer-links-div" id="links-1">
         <h4>Links</h4>
-        <a href="https://www.instagram.com/ontariostudenttaxes/">Instagram</a>
-        <a href="https://www.facebook.com/ontario.student.taxes">Facebook</a>
-        <a href="https://www.tiktok.com/@ontariostudenttaxes">Tiktok</a>
+        <a href="https://www.instagram.com/osttaxes/">Instagram</a>
+        <a href="https://www.facebook.com/osttaxes">Facebook</a>
+        <a href="https://www.tiktok.com/@osttaxes">Tiktok</a>
       </div>
       <div className="footer-links-div" id="links-2">
         <h4>Company</h4>
