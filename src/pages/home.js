@@ -4,8 +4,8 @@ import Navbar from '../components/navbar/Navbar';
 import Header from '../containers/header/Header';
 import Serviceall from '../containers/Serviceall/serviceall';
 import HowItWorks from '../containers/HowItWorks/howitworks';
-import Testimonials from '../containers/Testimonials/reviews';
 import Contact from '../containers/footer/Footer';
+import { Testimonials, CTA } from '../containers';
 
 const Home = () => (
   <div className="App">
@@ -13,6 +13,7 @@ const Home = () => (
       <Navbar />
       <Header />
     </div>
+    <CTA />
     <Serviceall />
     <HowItWorks />
     <Testimonials />
