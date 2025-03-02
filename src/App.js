@@ -5,7 +5,6 @@ import Home from './pages/home';
 import Studenthome from './pages/studenthome';
 import Personalhome from './pages/personalhome';
 import Coorporatehome from './pages/coorporatehome';
-import TaxChart from './pages/taxchart';
 
 const App = () => (
   <BrowserRouter>
